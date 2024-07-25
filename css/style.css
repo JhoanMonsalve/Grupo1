@@ -107,6 +107,60 @@ footer {
   align-content: center;
 }
 .medio {
-  width: 20vw;
+  width: 100%;
   height: 80vh;
+}
+
+.contenedor-medio {
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+.about-medio-right {
+  background-color: gray;
+  width: 20%;
+  height: 100%;
+}
+
+.about-medio-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: whitesmoke;
+  width: 80%;
+  height: 100%;
+}
+
+.about-grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-caja1 {
+  background-color: turquoise;
+  width: 80%;
+  height: 80%;
+}
+
+.about-caja2 {
+  background-color: turquoise;
+  width: 80%;
+  height: 80%;
+}
+
+.about-caja3 {
+  background-color: turquoise;
+  width: 80%;
+  height: 80%;
+}
+
+.about-caja4 {
+  background-color: turquoise;
+  width: 80%;
+  height: 80%;
 }
