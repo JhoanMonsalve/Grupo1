@@ -195,3 +195,59 @@ footer {
     padding: 10px;
     background-color: #444;
 }
+.body_blog {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header_blog {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.main_blog {
+    padding: 20px;
+}
+
+.post_blog {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.thumbnail_blog {
+    width: 100px;
+    height: 100px;
+    background-color: #32597e;
+   
+}
+
+.content_blog {
+    flex: 1;
+    margin: 10px;
+    
+}
+.footer_blog{
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links_blog {
+    margin: 0 10px;
+}
+
+.links_blog p {
+    margin: 5px 0;
+}
