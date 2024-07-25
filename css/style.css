@@ -153,13 +153,19 @@ nav a {
 }
 
 .carousel-image {
-    width: 80%;
+    width: 200%;
     height: 200px;
     background-color: #bbb;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
+}
+
+.carousel-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 .cards {
@@ -412,4 +418,9 @@ footer {
   background-color: turquoise;
   width: 80%;
   height: 80%;
+}
+
+.logo_home{
+    border-radius: 60px;
+    background-color: #fafafa;
 }
