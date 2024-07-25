@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#blog__header {
+    background-color: #f1f505;
+    height: 10%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#blog__main {
+    background-color: #3802fc;
+    height: 70%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__content {
+    width: 80%;
+    text-align: center;
+}
+
+#blog__footer {
+    background-color: #f30202;
+    height: 20%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    position: relative;
+}
+#blog__cuadro1{
+    color: black;
+}
