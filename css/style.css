@@ -1,4 +1,5 @@
-body{
+
+body {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -6,8 +7,6 @@ body{
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
-
-
 
 .item {
     display: flex;
@@ -101,4 +100,104 @@ body{
     margin-top:100px;
     position: absolute;
     left: 191vh; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-icon {
+    font-size: 24px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.carousel-left, .carousel-right {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.carousel-image {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    height: 150px;
+    background-color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-item {
+    width: 45%;
+    padding: 10px;
+    background-color: #444;
+}
+
+.links {
+    margin: 0 10px;
+}
+
+.links p {
+    margin: 5px 0;
 }
