@@ -53,11 +53,13 @@ nav a {
 }
 
 .carousel-image {
-    width: 80%;
+    width: 200%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 
 .carousel-image img {
@@ -107,4 +109,9 @@ footer {
 
 .links p {
     margin: 5px 0;
+}
+
+.logo_home{
+    border-radius: 60px;
+    background-color: #fafafa;
 }
